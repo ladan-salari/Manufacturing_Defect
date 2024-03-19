@@ -7,18 +7,16 @@
 # Output: The input file for Abaqus simulation for all combinations of beam length and diameter
 # -------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-
-
+import os
 os.chdir("C:\Users\ladan\Documents\Research")
 Mdb()
 from abaqusConstants import *
 from caeModules import *
 from driverUtils import executeOnCaeStartup
-import interaction
-import math
-import part
-import mesh
-import copy
+from interaction import *
+from part import *
+from mesh import *
+
 import decimal
 
 session.journalOptions.setValues(replayGeometry=COORDINATE, recoverGeometry=COORDINATE)

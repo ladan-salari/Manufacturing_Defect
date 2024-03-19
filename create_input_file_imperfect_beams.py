@@ -7,16 +7,7 @@
 # output: The input file for Abaqus simulation for different load cases.
 # -------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-
-import re
-import decimal
 import math
-import os
-import numpy
-import numpy as np
-import scipy.io
-import scipy.io as sio
-
 
 number_bar = 2001  # number of bars
 # ---------------------------------------------------------------------------------

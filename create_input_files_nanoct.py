@@ -7,7 +7,6 @@
 # Output: The input file for Abaqus simulation for all the Nano-CT scan beams loaded at different angles
 # -------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-
 import re
 import decimal
 import math
